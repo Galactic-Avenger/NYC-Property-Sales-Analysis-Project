@@ -10,18 +10,19 @@
 This project explores property sale trends across all five boroughs of New York City using publicly available citywide sales data from 2017 to 2023.
 
 The analysis includes:
-- 📍 An interactive **map** with dynamic choropleths and tooltips by borough/year
-- 📊 Cleanly formatted **line and bar charts** showing price trends and sales volume
-- 📋 Summary tables displaying median and average sale prices by year and borough
+-  An interactive **map** with dynamic choropleths and tooltips by borough/year
+- Cleanly formatted **line and bar charts** showing price trends and sales volume
+- Summary tables displaying median and average sale prices by year and borough
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
+
+```
 nyc-property-sales-analysis/
 ├── NYC_Property_Sales_Analysis.ipynb       # Jupyter notebook with full analysis
-├── NYC_Median_Prices_By_Year.html          # Exported interactive map from Folium (optional)
 ├── README.md                               # Project overview and instructions
-├── data/                                   # Raw input data files
+├── data/                                   # Raw data files
 │   ├── 2017_citywide_sale.xlsx
 │   ├── 2018_citywide_sale.xlsx
 │   ├── 2019_citywide_sale.xlsx
@@ -30,6 +31,8 @@ nyc-property-sales-analysis/
 │   ├── 2022_citywide_sale.xlsx
 │   ├── 2023_citywide_sale.xlsx
 │   └── nyc_boroughs.geojson
+```
+
 
 
 
@@ -38,19 +41,19 @@ nyc-property-sales-analysis/
 ## How to Run
 
 1. Clone the repository or upload the files to Google Colab or Jupyter.
-2. Place all `.xlsx` data files and the `.geojson` file in the `data/` folder.
+2. Remove all the `.xlsx` data files and the `.geojson` file from the `data/` folder and upload them to google colab.
 3. Open the notebook and run all cells from top to bottom.
-4. The final interactive map will be saved as `NYC_Median_Prices_By_Year.html`.
+
 
 ---
 
 ## Data Sources
 
 - NYC Property Sales:  
-  https://data.cityofnewyork.us/Housing-Development/NYC-Rolling-Sales-Data/5ebm-myj7
+ https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page?
 
 - NYC Borough Boundaries (GeoJSON):  
-  https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
+https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page
 
 ---
 
