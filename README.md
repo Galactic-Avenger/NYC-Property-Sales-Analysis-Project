@@ -7,7 +7,8 @@
 
 ## Project Overview
 
-This project explores property sale trends across all five boroughs of New York City using publicly available citywide sales data from 2017 to 2023.
+This project explores trends in residential property sales across New York City from 2017 to 2023. Using publicly available data from NYC Open Data, I analyzed annual sales for 1-, 2-, and 3-family homes across all five boroughs.
+The goal was to uncover patterns in housing prices, sales volume, and neighborhood dynamics — especially before, during, and after the COVID-19 pandemic.
 
 The analysis includes:
 -  An interactive **map** with dynamic choropleths and tooltips by borough/year
@@ -21,6 +22,7 @@ The analysis includes:
 ```
 nyc-property-sales-analysis/
 ├── NYC_Property_Sales_Analysis.ipynb       # Jupyter notebook with full analysis
+├── NYC_Property_Sales_Analysis.ipynb pdf   # Pdf can be used if you cant run code locally
 ├── README.md                               # Project overview and instructions
 ├── data/                                   # Raw data files
 │   ├── 2017_citywide_sale.xlsx
